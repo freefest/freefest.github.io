@@ -7,6 +7,7 @@ hu:
     about_us: Rólunk
   paths:
     hero_img: images/freefest_hero.webp
+    mezo_img: images/mezo.jpg
   home:
     description: |
       Mező barátommal volt egy álmunk és 20 évvel ezelőtt elkezdtük megszervezni a Free Fest Underground Jamboree-t.

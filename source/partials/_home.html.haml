@@ -1,4 +1,5 @@
 #home.d-flex.align-items-center.justify-content-center.text-center.background-beige
   .container.position-relative.z-index-1
-    .overlay.p-5.rounded.mt-3{style: "position: relative; display: inline-block; background: rgba(255, 255, 255, 0.6);"}
+    .overlay.p-5.rounded.mt-3.mb-3{style: "position: relative; display: inline-block; background: rgba(255, 255, 255, 0.6);"}
       %p= t('home.description')
+      %img{src: "#{t('paths.mezo_img')}", alt: "Avatar", class: "rounded-circle", style: "width: 100px; height: 100px; object-fit: cover;"}

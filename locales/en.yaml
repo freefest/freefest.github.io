@@ -7,6 +7,7 @@ en:
     about_us: About Us
   paths:
     hero_img: ../images/freefest_hero.webp
+    mezo_img: ../images/mezo.jpg
   home:
     description: |
       My friend Mező and I had a dream, and 20 years ago, we started organizing the Free Fest Underground Jamboree.
