@@ -1,3 +1,15 @@
 ---
 en:
-  welcome: "I's Free Fest time again!"
+  menu:
+    home: Home
+    venue: Venue
+    schedule: Schedule
+    about_us: About Us
+  paths:
+    hero_img: ../images/freefest_hero.webp
+  home:
+    description: |
+      My friend Mező and I had a dream, and 20 years ago, we started organizing the Free Fest Underground Jamboree.
+      We didn’t want to be part of the music industry's business world, so from the performers to the organizers, we worked to create a free festival through community effort, one that wasn’t driven by market interests.
+      It was amazing to experience this with you eight times! Thank you all!
+      Sadly, Mező is no longer with us, and we went quiet for a while, but now we’re back — and we want to spend another long weekend with you, honoring Mező’s memory as well.

@@ -3,27 +3,25 @@
     .d-flex.flex-wrap.align-items-center.justify-content-center.justify-content-lg-between
       %a.d-flex.align-items-center.mb-2.mb-lg-0.text-white.text-decoration-none{href: "/"}
         %span.fs-4 #{data.general_details.title} #{data.general_details.annum}
-        %nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
-          .container-fluid
-            %button.navbar-toggler{type: "button", data: {bs_toggle: "collapse", bs_target: "#navbarNav"}, aria_controls: "navbarNav", aria_expanded: "false", aria_label: "Toggle navigation"}
-              %span.navbar-toggler-icon
+      %nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+        .container-fluid
+          %button.navbar-toggler{type: "button", data: {bs_toggle: "collapse", bs_target: "#navbarNav"}, aria_controls: "navbarNav", aria_expanded: "false", aria_label: "Toggle navigation"}
+            %span.navbar-toggler-icon
 
-            #navbarNav.collapse.navbar-collapse.ms-auto
-              %ul.navbar-nav.mb-2.mb-lg-0
-                %li.nav-item
-                  %a.nav-link.px-2.text-white{href: "#"} Home
-                %li.nav-item
-                  %a.nav-link.px-2.text-white{href: "#"} Venue
-                %li.nav-item
-                  %a.nav-link.px-2.text-white{href: "#"} Schedule
-                %li.nav-item
-                  %a.nav-link.px-2.text-white{href: "#"} FAQs
-                %li.nav-item
-                  %a.nav-link.px-2.text-white{href: "#"} About
-                %li.nav-item.dropdown
-                  %a.nav-link.dropdown-toggle{"aria-expanded" => "false", "data-bs-toggle" => "dropdown", href: "#"} Language
-                  %ul.dropdown-menu
-                    %li
-                      %a.dropdown-item{href: "/en/"} English
-                    %li
-                      %a.dropdown-item{href: "/"} Magyar
+      #navbarNav.collapse.navbar-collapse.ms-auto
+        %ul.navbar-nav.mb-2.mb-lg-0
+          %li.nav-item
+            %a.nav-link.px-2.text-white{href: "#home"}= t('menu.home')
+          %li.nav-item
+            %a.nav-link.px-2.text-white{href: "#"}= t('menu.venue')
+          %li.nav-item
+            %a.nav-link.px-2.text-white{href: "#"}= t('menu.schedule')
+          %li.nav-item
+            %a.nav-link.px-2.text-white{href: "#"}= t('menu.about_us')
+          %li.nav-item.dropdown
+            %a.nav-link.dropdown-toggle{"aria-expanded" => "false", "data-bs-toggle" => "dropdown", href: "#"} Language
+            %ul.dropdown-menu
+              %li
+                %a.dropdown-item{href: "/en/"} English
+              %li
+                %a.dropdown-item{href: "/"} Magyar
