@@ -1,0 +1,15 @@
+#schedule
+  .container.mt-5.mb-5
+    - data.schedule.each do |date, timeslots|
+      .row.justify-content-center
+        .col-12.text-center
+          %h3= date
+
+      .row.justify-content-center
+        .col-md-8.col-lg-6
+          %table.table.table-striped
+            %tbody
+              - timeslots.each do |timeslot, performer|
+                %tr
+                  %td= format_to_time(timeslot)
+                  %td= performer
