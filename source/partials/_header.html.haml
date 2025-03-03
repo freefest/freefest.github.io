@@ -1,7 +1,7 @@
 %header.p-3
   .container
     .d-flex.flex-wrap.align-items-center.justify-content-center.justify-content-lg-between
-      %a.d-flex.align-items-center.mb-2.mb-lg-0.text-white.text-decoration-none{href: "#{localized_root_url}"}
+      %a.d-flex.align-items-center.mb-2.mb-lg-0.text-white.text-decoration-none{href: '#'}
         %span.fs-4 #{data.general_details.title} #{data.general_details.annum}
 
       %nav.navbar.navbar-expand.navbar-dark.bg-dark
@@ -15,7 +15,7 @@
               %li.nav-item
                 %a.nav-link.px-2.text-white{href: "#schedule"}= t('menu.schedule')
               %li.nav-item
-                %a.nav-link.px-2.text-white{href: "#"}= t('menu.about_us')
+                %a.nav-link.px-2.text-white{href: "#contact"}= t('menu.contact')
               %li.nav-item.dropdown
                 %a.nav-link.dropdown-toggle{"aria-expanded" => "false", "data-bs-toggle" => "dropdown", href: "#"} Language
                 %ul.dropdown-menu

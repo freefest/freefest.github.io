@@ -4,7 +4,7 @@ hu:
     home: Főoldal
     venue: Helyszín
     schedule: Program
-    about_us: Rólunk
+    contact: Kapcsolat
   paths:
     hero_img: images/freefest_hero.webp
     mezo_img: images/mezo.jpg
@@ -14,3 +14,6 @@ hu:
       Nem kívántunk részt venni a zenei ipar üzleti világában, ezért a fellépőktől kezdve a szervezőkön át azon dolgoztunk, hogy közösségi munkával létrejöhessen egy ingyenes fesztivál, amit nem a piaci érdekek mozgattak.
       Fantasztikus volt veletek 8x átélni ezt az élményt! Köszönjük Nektek!
       Sajnos Mező már nincs köztünk és egy időre elcsendesedtünk, de most újra itt vagyunk és Mező emléke előtt is tisztelegve szeretnénk veletek újra eltölteni egy hosszú hétvégét!
+  contact:
+    contact_us: Lépj velünk kapcsolatba
+    freefest_on_facebook: Free Fest a Facebook-on
