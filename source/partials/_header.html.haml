@@ -1,12 +1,15 @@
-%header.p-3
+%header.p-3.bg-dark.text-white
   .container
-    .d-flex.flex-wrap.align-items-center.justify-content-center.justify-content-lg-between
+    .d-flex.align-items-center.justify-content-between
       %a.d-flex.align-items-center.mb-2.mb-lg-0.text-white.text-decoration-none{href: '#'}
         %span.fs-4 #{data.general_details.title} #{data.general_details.annum}
 
-      %nav.navbar.navbar-expand.navbar-dark.bg-dark
+      %nav.navbar.navbar-expand-lg.navbar-dark
         .container-fluid
-          #navbarNav
+          %button.navbar-toggler{"type" => "button", "data-bs-toggle" => "collapse", "data-bs-target" => "#navbarNav", "aria-controls" => "navbarNav", "aria-expanded" => "false", "aria-label" => "Toggle navigation"}
+            %span.navbar-toggler-icon
+
+          .collapse.navbar-collapse#navbarNav
             %ul.navbar-nav.ms-auto.mb-2.mb-lg-0
               %li.nav-item
                 %a.nav-link.px-2.text-white{href: "#home"}= t('menu.home')
