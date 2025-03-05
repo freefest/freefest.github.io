@@ -17,6 +17,8 @@ activate :i18n, mount_at_root: :hu
 
 Haml::TempleEngine.disable_option_validator!
 
+set :relative_links, true
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
