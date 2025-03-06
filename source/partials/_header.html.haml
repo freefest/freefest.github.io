@@ -2,7 +2,7 @@
   .container
     .d-flex.align-items-center.justify-content-between
       %a.d-flex.align-items-center.mb-2.mb-lg-0.text-white.text-decoration-none{href: '#'}
-        %span.fs-4 #{data.general_details.title} #{data.general_details.annum}
+        %span.fs-4 #{data.general_details.title.sub('Total', '').strip} #{data.general_details.annum}
 
       %nav.navbar.navbar-expand-lg.navbar-dark
         .container-fluid

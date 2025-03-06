@@ -1,15 +1,29 @@
+:root {
+    --orange-color: #eb5b00;
+    --beige-color: #f5ecd5;
+}
+
 header {
     position: sticky;
     top: 0;
     z-index: 1020;
-    color: #f5ecd5 !important;
+    color: var(--beige-color) !important;
+}
+
+@font-face {
+    font-family: stencilFont;
+    src: url(../fonts/butler_black_stencil-webfont.woff);
+}
+
+.stencil-font {
+    font-family: stencilFont, serif;
 }
 
 header .nav-link,
 header .navbar-toggler-icon,
 header .navbar-brand,
 header .fs-4 {
-    color: #f5ecd5 !important;
+    color: var(--beige-color) !important;
 }
 
 header .nav-link:hover {
@@ -17,14 +31,19 @@ header .nav-link:hover {
 }
 
 header .navbar-toggler {
-    border-color: #f5ecd5 !important;
+    border-color: var(--beige-color) !important;
 }
 
 .text-cream {
     color: #fffaec;
 }
+
+.text-orange {
+    color: var(--orange-color);
+}
+
 .background-beige {
-    background-color: #f5ecd5;
+    background-color: var(--beige-color);
 }
 
 .background-teal {

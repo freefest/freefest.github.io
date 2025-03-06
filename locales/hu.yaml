@@ -8,6 +8,8 @@ hu:
   paths:
     hero_img: images/freefest_hero.webp
     mezo_img: images/mezo.jpg
+  hero:
+    date: Június 19 – 21
   home:
     description: |
       Mező barátommal volt egy álmunk és 20 évvel ezelőtt elkezdtük megszervezni a Free Fest Underground Jamboree-t.
