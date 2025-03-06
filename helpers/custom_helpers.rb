@@ -1,9 +1,9 @@
 module CustomHelpers
-  def localized_root_url
-    I18n.locale == :hu ? '/' : "/#{I18n.locale}/"
-  end
-
   def format_to_time(timeslot)
     timeslot.sub('-', ':')
+  end
+
+  def localized_url_for(path)
+    I18n.locale == :hu ? "./#{path}" : "../#{path}"
   end
 end
