@@ -1,0 +1,54 @@
+:root {
+  --orange-color: #eb5b00;
+  --beige-color: #f5ecd5; }
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  color: var(--beige-color) !important; }
+
+@font-face {
+  font-family: stencilFont;
+  src: url(../fonts/butler_black_stencil-webfont.woff); }
+
+.stencil-font {
+  font-family: stencilFont, serif; }
+
+header .nav-link,
+header .navbar-toggler-icon,
+header .navbar-brand,
+header .fs-4 {
+  color: var(--beige-color) !important; }
+
+header .nav-link:hover {
+  color: #fff !important;
+  /* Optional: white on hover */ }
+
+header .navbar-toggler {
+  border-color: var(--beige-color) !important; }
+
+.text-cream {
+  color: #fffaec; }
+
+.text-orange {
+  color: var(--orange-color); }
+
+.background-beige {
+  background-color: var(--beige-color); }
+
+.background-teal {
+  background-color: #578e7e; }
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden; }
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important; }
