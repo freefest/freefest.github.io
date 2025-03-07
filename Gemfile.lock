@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/tom-mullen/middleman-deploy-git.git
+  revision: 2306d72e09a9f038bfb1692b7f82b826a1de6f3e
+  specs:
+    middleman-deploy-git (1.0.0)
+      middleman-core (>= 3.2)
+      net-sftp
+      ptools
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -102,6 +111,14 @@ GEM
       uglifier (~> 3.0)
       webrick
     minitest (5.25.4)
+    net-ftp (0.3.8)
+      net-protocol
+      time
+    net-protocol (0.2.2)
+      timeout
+    net-sftp (4.0.0)
+      net-ssh (>= 5.0.0, < 8.0.0)
+    net-ssh (7.3.0)
     ostruct (0.6.1)
     padrino-helpers (0.15.3)
       i18n (>= 0.6.7, < 2)
@@ -113,6 +130,7 @@ GEM
     psych (5.2.3)
       date
       stringio
+    ptools (1.5.0)
     public_suffix (6.0.1)
     rack (2.2.11)
     rb-fsevent (0.11.2)
@@ -144,6 +162,9 @@ GEM
       execjs (>= 0.3.0, < 3)
     thor (1.2.2)
     tilt (2.0.11)
+    time (0.4.1)
+      date
+    timeout (0.4.3)
     toml (0.3.0)
       parslet (>= 1.8.0, < 3.0.0)
     tzinfo (2.0.6)
@@ -170,6 +191,8 @@ DEPENDENCIES
   csv
   middleman (~> 4.5)
   middleman-autoprefixer (~> 3.0)
+  middleman-deploy-git (~> 1.0)!
+  net-ftp
   ostruct
   rdoc
   rspec

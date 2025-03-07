@@ -19,6 +19,10 @@ Haml::TempleEngine.disable_option_validator!
 
 set :relative_links, true
 
+activate :deploy do |deploy|
+  deploy.build_before = true
+end
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
