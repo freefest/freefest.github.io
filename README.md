@@ -1,8 +1,7 @@
 # Free Fest Website
 This is the repository for the static website of the Free Fest music festival generated using the
 [Middleman](https://middlemanapp.com) static site generator. This repository follows the recommended directory structure
-described on the Middleman website.
-
+described on the Middleman website.  
 The page is using Bootstrap UI components and Bootstrap is referenced via CDN.
 The site is hosted on GitHub Pages currently.
 ---
