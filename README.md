@@ -1,9 +1,11 @@
-# Free Fest Website
+# Free Fest Website  
+
 This is the repository for the static website of the Free Fest music festival generated using the
-[Middleman](https://middlemanapp.com) static site generator. This repository follows the recommended directory structure
+[Middleman](https://middlemanapp.com) static site generator. The repository follows the recommended directory structure
 described on the Middleman website.  
 The page is using Bootstrap UI components and Bootstrap is referenced via CDN.
 The site is hosted on GitHub Pages currently.
+
 ---
 ### Prerequisites
 1. Install a ruby version manager (preferably `rbenv`). Once done, from the project root run: `rbenv install` to install
