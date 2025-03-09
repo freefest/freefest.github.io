@@ -19,6 +19,12 @@ en:
   venue:
     venue_name: Zöld Pecsét Cafe and Wine Bar
     venue_address: Fő utca 1, Eger, 3300 Hungary
+  schedule:
+    disclaimer: |
+      The schedule is subject to change.
+    stages:
+      outdoor: Outdoor
+      indoor: Indoor
   contact:
     contact_us: Contact us
     freefest_on_facebook: Free Fest on Facebook

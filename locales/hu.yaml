@@ -19,6 +19,12 @@ hu:
   venue:
     venue_name: Zöld Pecsét Kávézó és Borbár
     venue_address: Eger, Fő utca 1, 3300
+  schedule:
+    disclaimer: |
+      A program változhat.
+    stages:
+      outdoor: Szabadtér
+      indoor: Terem
   contact:
     contact_us: Lépj velünk kapcsolatba
     freefest_on_facebook: Free Fest a Facebook-on
