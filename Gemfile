@@ -7,6 +7,7 @@ gem 'middleman-deploy-git', '~> 1.0', git: 'https://github.com/tom-mullen/middle
 gem 'net-ftp'
 gem 'ostruct'
 gem 'rdoc'
+gem 'rubocop', group: 'development', require: false
 gem 'terser', '~> 1.1'
 gem 'tzinfo-data', platforms: %i[mswin mingw jruby x64_mingw]
 gem 'wdm', '~> 0.1', platforms: %i[mswin mingw x64_mingw]
