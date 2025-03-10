@@ -13,6 +13,7 @@ the ruby version in use described in the `.ruby-version` file
 2. Run `bundle install` from the project root to install the gem dependencies
 
 ### Development
+- To be able to see your changes live, start the middleman server with the `middleman` command (no arguments) and open the localhost URL from the output
 - Currently only helper methods have unit test, you can run them by the `bundle exec rspec` command
 - To build the static content from the templates, use `middleman build` and it will put the static files to the `build/`
 - directory for manual testing
