@@ -17,5 +17,5 @@
               %tbody
                 - timeslots.each do |timeslot, performer|
                   %tr
-                    %td= format_to_time(timeslot)
+                    %td= gig_duration(timeslot, performer)
                     %td= performer
