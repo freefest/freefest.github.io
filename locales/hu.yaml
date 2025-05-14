@@ -23,8 +23,8 @@ hu:
     disclaimer: |
       A program változhat.
     stages:
-      outdoor: Szabadtér
-      indoor: Terem
+      outdoor: Mező színpad - szabadtér
+      indoor: Total színpad - terem
   contact:
     contact_us: Lépj velünk kapcsolatba
     freefest_on_facebook: Free Fest a Facebook-on

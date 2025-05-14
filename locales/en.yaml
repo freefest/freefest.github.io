@@ -23,8 +23,8 @@ en:
     disclaimer: |
       The schedule is subject to change.
     stages:
-      outdoor: Outdoor
-      indoor: Indoor
+      outdoor: Mező stage - outdoor
+      indoor: Total stage - indoor
   contact:
     contact_us: Contact us
     freefest_on_facebook: Free Fest on Facebook
