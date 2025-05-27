@@ -18,6 +18,23 @@ module CustomHelpers
   end
 
   def localized_url_for(path)
-    I18n.locale == :hu ? "./#{path}" : "../#{path}"
+    default_locale = :hu
+    locale = I18n.locale
+
+    if locale == default_locale
+      path
+    else
+      File.join('/', locale.to_s, path).gsub(%r{/+}, '/')
+    end
+  end
+
+  def change_locale(locale)
+    url_regex = %r{\A/(?:(#{I18n.available_locales.join('|')})/)?}
+    locale_root = url_for('/', locale:)
+    if current_page.url.gsub(url_regex, '').blank?
+      locale_root
+    else
+      current_page.url.gsub(url_regex, locale_root)
+    end
   end
 end

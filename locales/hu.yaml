@@ -5,6 +5,7 @@ hu:
     venue: Helyszín
     schedule: Program
     contact: Kapcsolat
+    memories: Emlékek
   paths:
     hero_img: images/freefest_hero.webp
     mezo_img: images/mezo.jpg
@@ -29,3 +30,5 @@ hu:
     contact_us: Lépj velünk kapcsolatba
     freefest_on_facebook: Free Fest a Facebook-on
     freefest_on_instagram: Free Fest az Instagram-on
+  buttons:
+    visit: Megnézem
