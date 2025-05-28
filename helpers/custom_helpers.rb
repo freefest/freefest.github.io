@@ -16,10 +16,4 @@ module CustomHelpers
   def format_to_time(timeslot)
     timeslot.sub('-', ':')
   end
-
-  def change_locale(locale)
-    sitemap.find_resource_by_destination_path(
-      File.join(locale == :hu ? '' : "#{locale}/", current_page.destination_path)
-    )&.url || '/'
-  end
 end
