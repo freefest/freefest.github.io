@@ -26,6 +26,6 @@
               %a.nav-link.dropdown-toggle{"aria-expanded" => "false", "data-bs-toggle" => "dropdown", href: "#"} Language
               %ul.dropdown-menu
                 %li
-                  %a.dropdown-item{href: change_locale(:en)} English
+                  = link_to "English", url_for('index.html', locale: :en), class: 'dropdown-item'
                 %li
-                  %a.dropdown-item{href: change_locale(:hu)} Magyar
+                  = link_to "Magyar", url_for('index.html', locale: :hu), class: 'dropdown-item'
