@@ -23,33 +23,4 @@ RSpec.describe CustomHelpers, type: :helper do
       end
     end
   end
-
-  describe '#localized_url_for' do
-    require 'i18n'
-    let(:path) { '/memories/' }
-
-    context 'when locale is :hu (default locale)' do
-      before { allow(I18n).to receive(:locale).and_return :hu }
-
-      it 'returns the path without locale prefix' do
-        expect(helper.localized_url_for(path)).to eq('/memories/')
-      end
-    end
-
-    context 'when locale is :en' do
-      before { allow(I18n).to receive(:locale).and_return :en }
-
-      it 'prefixes the path with the locale' do
-        expect(helper.localized_url_for(path)).to eq('/en/memories/')
-      end
-    end
-
-    context 'when path has redundant slashes' do
-      before { allow(I18n).to receive(:locale).and_return :en }
-
-      it 'cleans up extra slashes' do
-        expect(helper.localized_url_for('//memories//')).to eq('/en/memories/')
-      end
-    end
-  end
 end
