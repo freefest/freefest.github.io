@@ -1,5 +1,8 @@
 = partial 'partials/header'
 .container.mt-3.mb-5
+  .container.text-center
+    %h3= t('menu.memories')
+    %p= t('memories.description')
   .row.g-3
     - data.memories.each do |num, memory|
       .col-12.col-sm-6.col-md-4.col-lg-3
@@ -8,4 +11,4 @@
           .card-body.mt-auto.d-flex.flex-column.justify-content-end
             %h5.card-title= "##{num} #{memory[:title]}"
             %p.card-text= memory[:description]
-            %a.btn.btn-primary.mt-2{:href => memory[:url], :target => "_blank"} Visit
+            %a.btn.btn-primary.mt-2{:href => memory[:url], :target => "_blank"}= t('buttons.visit')
