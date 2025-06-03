@@ -20,6 +20,9 @@ en:
   venue:
     venue_name: Zöld Pecsét Cafe and Wine Bar
     venue_address: Fő utca 1, Eger, 3300 Hungary
+    camping:
+      title: Camping
+      description: There is an option for camping on site, on the designated area.
   schedule:
     disclaimer: |
       The schedule is subject to change.

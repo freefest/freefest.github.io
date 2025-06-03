@@ -1,0 +1,10 @@
+#campingAccordion.accordion.mt-3
+  .accordion-item
+    %h2#headingOne.accordion-header
+      %button.accordion-button.collapsed{"aria-controls" => "collapseOne", "aria-expanded" => "true", "data-bs-target" => "#collapseOne", "data-bs-toggle" => "collapse", :type => "button"}
+        = t('venue.camping.title')
+    #collapseOne.accordion-collapse.collapse{"aria-labelledby" => "headingOne", "data-bs-parent" => "#campingAccordion"}
+      .accordion-body
+        .d-flex.flex-column
+          %p= t('venue.camping.description')
+          = image_tag "#{data.general_details.camping_img_src}", class: "img-fluid"
