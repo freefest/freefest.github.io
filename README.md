@@ -1,8 +1,8 @@
-# Free Fest Website  
+# Free Fest Website
 
 This is the repository for the static website of the Free Fest music festival generated using the
 [Middleman](https://middlemanapp.com) static site generator. The repository follows the recommended directory structure
-described on the Middleman website.  
+described on the Middleman website.
 The page is using Bootstrap UI components and Bootstrap is referenced via CDN.
 The site is hosted on GitHub Pages currently.
 
@@ -14,7 +14,7 @@ the ruby version in use described in the `.ruby-version` file
 
 ### Development
 - To be able to see your changes live, start the middleman server with the `middleman` command (no arguments) and open the localhost URL from the output
-- Currently only helper methods have unit test, you can run them by the `bundle exec rspec` command
+- This project has unit and feature tests, you can run them by the `bundle exec rspec` command
 - To build the static content from the templates, use `middleman build` and it will put the static files to the `build/`
 - directory for manual testing
 
