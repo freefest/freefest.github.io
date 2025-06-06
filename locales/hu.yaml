@@ -29,6 +29,22 @@ hu:
     stages:
       outdoor: Mező színpad - szabadtér
       indoor: Total színpad - terem
+    cultural_events:
+      title: Kulturális programok (2025.06.21)
+      nem_az_a_punk:
+        title: Nem az a punk, aki… könyvbemutató
+        description: |
+          Nem az a punk, aki…
+          Könyvbemutató és tematikus beszélgetés a Totalról és a Free Festről:
+          Rupaszov Tamás, Juhász Misi (Total), Szabó Réka (Free Fest), Ágai Péter (Free Fest)
+      comic_books:
+        title: Képregény bemutató
+        description: |
+          "Henry Rollins és az Exploited" avagy punk ikonok magyar képregényekben.
+          A Master-Lab Comics már több punk ikonról készített képregényt.
+          Kiadványaikban egy-egy előadó életét, vagy magát a punk mozgalmat, ideológiát mutatják be egyedülálló módon.
+          A közel egy órás előadás ezen képregények létrejöttét mutatja be az alkotók közreműködésével.
+          A kötetlen beszélgetést Mester Csaba grafikusművész a The Bedlam, és Labi a képregények írója, a Tankcsapda alapítói vezénylik le.
   contact:
     contact_us: Lépj velünk kapcsolatba
     freefest_on_facebook: Free Fest a Facebook-on

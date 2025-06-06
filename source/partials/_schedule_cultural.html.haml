@@ -1,0 +1,17 @@
+.container.text-center.col-12.col-lg-8
+  %h4= t('schedule.cultural_events.title')
+  #culturalAccordion.accordion.mt-3
+    .accordion-item
+      %h2#headingOne.accordion-header
+        %button.accordion-button.collapsed{"aria-controls" => "collapseOne", "aria-expanded" => "true", "data-bs-target" => "#collapseOne", "data-bs-toggle" => "collapse", :type => "button"}
+          = t('schedule.cultural_events.nem_az_a_punk.title')
+      #collapseOne.accordion-collapse.collapse{"aria-labelledby" => "headingOne", "data-bs-parent" => "#culturalAccordion"}
+        .accordion-body
+          %p= t('schedule.cultural_events.nem_az_a_punk.description')
+    .accordion-item
+      %h2#headingTwo.accordion-header
+        %button.accordion-button.collapsed{"aria-controls" => "collapseTwo", "aria-expanded" => "true", "data-bs-target" => "#collapseTwo", "data-bs-toggle" => "collapse", :type => "button"}
+          = t('schedule.cultural_events.comic_books.title')
+      #collapseTwo.accordion-collapse.collapse{"aria-labelledby" => "headingTwo", "data-bs-parent" => "#culturalAccordion"}
+        .accordion-body
+          %p= t('schedule.cultural_events.comic_books.description')
