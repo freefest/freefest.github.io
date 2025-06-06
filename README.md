@@ -16,7 +16,7 @@ the ruby version in use described in the `.ruby-version` file
 - To be able to see your changes live, start the middleman server with the `middleman` command (no arguments) and open the localhost URL from the output
 - This project has unit and feature tests, you can run them by the `bundle exec rspec` command
 - To build the static content from the templates, use `middleman build` and it will put the static files to the `build/`
-- directory for manual testing
+  directory for manual testing
 
 ### Deploying to GitHub Pages
 Run `middleman deploy` from the project root from your local machine, and it will be automatically pushed to the `gh-pages`
